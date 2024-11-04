@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,7 +33,7 @@ const Carousel = () => {
         <h2 className="text-xl sm:text-3xl  text-white">Unlock Your Potential</h2>
         <h2 className=" text-3xl sm:text-5xl  font-bold pb-2 pri3">Shape Africa's Future</h2>
         <p className="text-white pb-3">Ready to unlock your future ? Book a discovery call with us today and start your journey to grow and impact.</p>
-        <button className="text-white pri2 py-2 px-5 rounded-sm  "><p>Learn More</p></button>
+        <Link to = '/OurInternship'><button className="text-white pri2 py-2 px-5 rounded-sm  "><p>Learn More</p></button></Link>
         </div>
       </div>
 

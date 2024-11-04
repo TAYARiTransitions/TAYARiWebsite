@@ -1,0 +1,45 @@
+<Navbar className="p-2 py-3 flex content-center justify-center pri1 absolute top-0 hidden">
+          <NavbarBrand>
+            <img
+              src={tayariLogo}
+              alt="logo"
+              className="w-5/6  sm:w-72 md:w-2/4"
+            />
+          </NavbarBrand>
+          <NavbarContent className="hidden sm:flex gap-5 justify-center ">
+            <NavbarItem>
+              <Link href="/" className="text-white font-normal">
+                Home
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link href="/AboutUs" className="text-white font-normal">
+                About
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link href="/OurProgrammes" className="text-white font-normal">
+                Programmes
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link to="/OurInternship" className="text-white font-normal">
+                Internship
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <a href="#footer" className="text-white font-normal">
+                Contact
+              </a>
+            </NavbarItem>
+          </NavbarContent>
+          <NavbarContent justify="center">
+            <NavbarItem>
+              <Link href="/Join Us">
+                <Button className=" pri2 text-white px-8 rounded-md">
+                  Join Us
+                </Button>
+              </Link>
+            </NavbarItem>
+          </NavbarContent>
+        </Navbar>

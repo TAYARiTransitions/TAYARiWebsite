@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", serif;
+   
+}
+
+ 
+
+  .pri1{
+    background-color: #0A2E51;
+  }
+  .pri2{
+    background-color: #50C878;
+  }
+  .pri3{
+  color: #50C878;
+  }
+
+.textSaffron{
+  color: #F1CD30;
+}
+  .bbl{
+    border-color: #0A2E51;
+  }
+  .obl{
+    border-color: #F1CD30;
+  }
+
+  .abtPG{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), black), url(
+        ./assets/abtPG.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .abtLH{
+    line-height: 50px;
+  }
+  .internP{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), black), url(
+        ./assets/internship4.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .techinternP{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), black), url(
+        ./assets/TechInternPg.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .fundManagementinternP{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), black), url(
+        ./assets/Fund.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .partnershipengagementinternP{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.606), black), url(
+        ./assets/partnership&engagement.png
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .overlaytext{
+    display: none;
+  }
+  .intProgInd:hover{
+    box-shadow: 6px 6px 9px 2px grey;
+  }
+  .intProgInd:hover .opac{
+    opacity: 0;
+    
+  }
+  .intProgInd:hover #img{
+    opacity: 0;
+  }
+  .intProgInd:hover .overlaytext{
+    display: block ;
+    
+  }
+  .intProgdet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+  }
+  #showtxt{
+    line-height: 30px;
+  }
+  #feedback:focus{
+    outline: none;
+  }
+  .height{
+    height: 600px;
+  }
+  
+  @media screen and (max-width:900px) {
+    .intProgdet{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 30px;
+    }
+    #showtxt{
+      line-height: 26px;
+    }
+    #linkItem{
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width:600px) {
+    .intProgdet{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      gap: 30px;
+    }
+    #showtxt{
+      line-height: 18px;
+      display: none;
+    }
+    .height{
+      height: 400px;
+    }
+    
+ 
+  }
+  #btn{
+    background-color: #FF6A00;
+  }
+
+  #herotxt{
+    animation-name: lateLoading;
+    animation-duration: 3s;
+
+  }
+
+  @keyframes lateLoading {
+    0%{
+      opacity: 0
+    }
+    100%{
+      opacity:1
+    }
+  }
+
+  .abtdivimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.286),rgba(0, 0, 0, 0.286)), url('./assets/imagecopy.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .newsletter{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.675),rgba(0, 0, 0, 0.675) ),  url('./assets/newsL.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+ 

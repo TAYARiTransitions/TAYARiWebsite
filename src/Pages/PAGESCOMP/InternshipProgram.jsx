@@ -18,12 +18,12 @@ const IntProg = () => {
             </div>
             <div className="intProgItem  rounded-md ">
               <div className="opac">
-                <h2 className=" text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
+                <h2 className=" text-2xl sm:text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
                   Technology
                 </h2>
                 <p>__________________</p>
               </div>
-              <div className="imgTx absolute bottom-0 pb-16">
+              <div className="imgTx absolute bottom-0 pb-10">
                 <div className="redirect flex items-center flex-col">
                   <img src={InternshipPic} alt="" className="w-2/4 "  id="img"/>
                 </div>
@@ -42,12 +42,12 @@ const IntProg = () => {
             </div>
             <div className="intProgItem  rounded-md ">
               <div className="opac">
-                <h2 className=" text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
+                <h2 className=" text-2xl sm:text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
                   Business & <br />Program <br /> Development
                 </h2>
                 <p>__________________</p>
               </div>
-              <div className="imgTx absolute bottom-0 pb-16">
+              <div className="imgTx absolute bottom-0 pb-10">
                 <div className="redirect flex items-center flex-col">
                   <img src={InternshipPic} alt="" className="w-2/4 " id="img" />
                 </div>
@@ -66,13 +66,13 @@ const IntProg = () => {
             </div>
             <div className="intProgItem  rounded-md ">
               <div className="opac">
-                <h2 className=" text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
+                <h2 className=" text-2xl sm:text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
                   Administrative & <br />Partnerships <br /> Engagement
                 </h2>
                 <p>__________________</p>
                
               </div>
-              <div className="imgTx absolute bottom-0 pb-16">
+              <div className="imgTx absolute bottom-0 pb-10">
                 <div className="redirect flex items-center flex-col">
                   <img src={InternshipPic} alt="" className="w-2/4 " id="img" />
                 </div>
@@ -93,13 +93,13 @@ const IntProg = () => {
             </div>
             <div className="intProgItem  rounded-md ">
               <div className="opac">
-                <h2 className=" text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
+                <h2 className=" text-2xl sm:text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
                   Fund Management
                 </h2>
                 <p>__________________</p>
                 
               </div>
-              <div className="imgTx absolute bottom-0 pb-16">
+              <div className="imgTx absolute bottom-0 pb-10">
                 <div className="redirect flex items-center flex-col">
                   <img src={InternshipPic} alt="" className="w-2/4 " id="img" />
                 </div>

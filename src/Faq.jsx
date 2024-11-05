@@ -10,7 +10,7 @@ const Faq = () => {
   const faqItems = [
     { question: 'What does TAYARi do?', answer: "We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back." },
     { question: 'How do I Benefit?', answer: 'You can benefit by either contacting us via our form or registering for our internships.' },
-    { question: 'Is TAYARi Transition free?', answer: 'Yes, TAYARi Transition is completely free for farmers to use.' },
+    { question: 'Is TAYARi Transition free?', answer: 'Yes, TAYARi Transition is completely free for people to use.' },
   ];
 
   return (

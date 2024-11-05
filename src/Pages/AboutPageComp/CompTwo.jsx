@@ -15,7 +15,7 @@ const CompTwo = () => {
     <div>
       <div className="abtdivimg py-20">
         <div className="border-l-4 obl py-2 pl-2 mb-8 ml-7 sm:ml-20">
-          <h2 className="text-3xl font-semibold text-white">Our Services</h2>
+          <h2 className="text-3xl font-semibold text-white">Why Choose Us</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 place-items-center mx-7 sm:mx-20">
           <motion.div

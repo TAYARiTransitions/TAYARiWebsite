@@ -52,7 +52,7 @@ function App() {
 
 
           <Route path="/TechnologyInternship" element={<TechnologyInternship />} />
-          <Route path="/BusinessDevelopment" element={<BusinessDevelopment />} />
+          {/* <Route path="/BusinessDevelopment" element={<BusinessDevelopment />} /> */}
           <Route path="/PartnershipEngagement" element={<PartnershipEngagement />} />
           <Route path="/FundManagement" element={<FundManagement />} />
 

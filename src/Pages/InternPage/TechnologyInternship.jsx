@@ -98,7 +98,7 @@ const TechnologyInternship = () => {
                         </div>
                         <div className="flex  justify-center content-center pt-5  px-5">
                             <div className="max-w-6xl">
-                                <p className="  text-sm py-5 "><Link to='' className=" text-white p-3 rounded-sm pri2">Apply Now</Link></p>
+                                <p className="  text-sm py-5 "><Link to='https://jobs.gohire.io/gCEWhTxV/197739/' className=" text-white p-3 rounded-sm pri2">Apply Now</Link></p>
                             </div>
                         </div>
                     </div>

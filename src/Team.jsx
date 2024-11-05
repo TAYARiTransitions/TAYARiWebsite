@@ -10,7 +10,7 @@ const Team = () => {
         <h2 className="text-3xl font-semibold text-black opacity-90">Meet Our Team Members</h2>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-5'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-5'>
         {Teammembers.map((Teammember, idx) => (
           <TeamMemberCard key={Teammember.id} Teammember={Teammember} index={idx} />
         ))}

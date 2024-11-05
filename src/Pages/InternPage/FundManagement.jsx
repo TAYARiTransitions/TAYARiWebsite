@@ -90,7 +90,7 @@ const FundManagement = () => {
 
                         <div className="flex  justify-center content-center pt-5  px-5">
                             <div className="max-w-6xl">
-                                <p className=" text-sm py-5 "><Link to='' className=" text-white p-3 rounded-sm pri2">Apply Now</Link></p>
+                                <p className=" text-sm py-5 "><Link to='' className=" text-white p-3 rounded-sm pri2">Applications open in March 2025</Link></p>
                             </div>
                         </div>
                     </div>

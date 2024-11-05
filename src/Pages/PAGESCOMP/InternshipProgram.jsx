@@ -32,30 +32,6 @@ const IntProg = () => {
             </div>
           </div>
         </Link>
-        <Link to="/BusinessDevelopment">
-          <div className="intProgInd bg-white pt-20 pb-10 border relative height">
-            <div className="overlaytext px-4 absolute top-5 md:top-10 right-0 left-0  text-md text-black font-semibold ">
-              <p id="showtxt">
-              The Business Development team is involved in researching, developing, and refining learning program structures, content, and business engagement strategies to ensure successful implementation and sustainable impact.
-
-              </p>
-            </div>
-            <div className="intProgItem  rounded-md ">
-              <div className="opac">
-                <h2 className=" text-2xl sm:text-3xl lg:text-4xl  text-black font-semibold pb-7 opacity-90 ">
-                  Business & <br />Program <br /> Development
-                </h2>
-                <p>__________________</p>
-              </div>
-              <div className="imgTx absolute bottom-0 pb-10">
-                <div className="redirect flex items-center flex-col">
-                  <img src={InternshipPic} alt="" className="w-2/4 " id="img" />
-                </div>
-                <p className="pri3 font-semibold text-xl">Learn More</p>
-              </div>
-            </div>
-          </div>
-        </Link>
         <Link to="/PartnershipEngagement">
           <div className="intProgInd bg-white pt-20 pb-10 border relative height">
             <div className="overlaytext px-4 absolute top-5 md:top-10 right-0 left-0  text-md   text-black font-semibold ">

@@ -73,7 +73,7 @@ const About = () => {
           className='abtTxt text-white lg:max-w-2xl'
         >
           <p className="leading-8 font-semibold pb-3">
-            At TAYAR! Transitions, we provide more than just a service; we offer transition management—a structured approach to navigating life’s pivotal moments with confidence and clarity.
+            At TAYAR! Transitions, we provide more than just a service; we offer transition management—a structured approach to navigating life’s pivotal moments with wisdom and foresight.
           </p>
           <p className="leading-8 font-semibold pb-5">
             Join a community that nurtures talent, accelerates leadership, and empowers you to turn challenges into stepping stones for success.

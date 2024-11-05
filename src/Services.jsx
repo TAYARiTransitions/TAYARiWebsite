@@ -62,12 +62,12 @@ const Services = () => {
           >
             <h3 className='text-black text-2xl opacity-90 pb-3'>TAYARi Transitions</h3>
             <p className='text-black opacity-90 font-semibold leading-7 pb-5'>
-            We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back. With our support, you’ll navigate life’s key transitions with confidence, resilience, and purpose—whether it's in your career, education, or personal growth. Join a community that nurtures talent, accelerates leadership, and empowers you to turn challenges into stepping stones for success.
+            We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back. <br /> With our support, you’ll navigate life’s key transitions with confidence, resilience, and purpose—whether it's in your career, education, or personal growth. <br /> Join a community that nurtures talent, accelerates leadership, and empowers you to turn challenges into stepping stones for success.
 
             </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
               {/* Individual Items Animation */}
-              {['Community and Collaborations', 'Support for transitions', 'Impacting Lives'].map((item, idx) => (
+              {/* {['Community and Collaborations', 'Support for transitions', 'Impacting Lives'].map((item, idx) => (
                 <motion.div
                   key={idx}
                   className='py-5 px-3 border pri1 text-white rounded-sm hover:cursor-pointer hover:scale-105 flex justify-left gap-2 items-center'
@@ -82,7 +82,7 @@ const Services = () => {
                   <i className='bx bx-check-square text-2xl textSaffron bg-white px-2 py-1 rounded-full'></i>
                   <p>{item}</p>
                 </motion.div>
-              ))}
+              ))} */}
             </div>
           </motion.div>
 

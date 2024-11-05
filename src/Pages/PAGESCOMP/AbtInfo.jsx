@@ -12,12 +12,12 @@ const AbtInfo = () => {
   return (
     <>
      <CompOne />
-      <CompTwo/>
+      {/* <CompTwo/> */}
       <CompThree />
       <CompFour />
       <CompFive />
       <CompSix />
-      <CompSeven />
+      {/* <CompSeven /> */}
     </>
   );
 };

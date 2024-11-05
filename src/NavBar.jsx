@@ -37,7 +37,7 @@ const NavBar = () => {
         </div>
         <div className="navLink hidden md:flex gap-[65px] text-md" id='linkItem'>
           <Link to='/' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Home</Link>
-          <Link to='/AboutUs' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>About Us</Link>
+          <Link to='/AboutUs' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Our Offer</Link>
           <Link to='/OurInternship' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Internships</Link>
           <Link to='/OurProgrammes' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Programs</Link>
         </div>
@@ -65,7 +65,7 @@ const NavBar = () => {
 
           <div className="flex flex-col text-white text-md gap-2 text-center">
             <Link to='/' onClick={closeMenu}>Home</Link>
-            <Link to='/AboutUs' onClick={closeMenu}>About Us</Link>
+            <Link to='/AboutUs' onClick={closeMenu}>Our Offer</Link>
             <Link to='/OurInternship' onClick={closeMenu}>Internships</Link>
             <Link to='/OurProgrammes' onClick={closeMenu}>Programs</Link>
             <Link to='/Join Us' onClick={closeMenu}>Contact Us</Link>

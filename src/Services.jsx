@@ -62,7 +62,7 @@ const Services = () => {
           >
             <h3 className='text-black text-2xl opacity-90 pb-3'>TAYARi Transitions</h3>
             <p className='text-black opacity-90 font-semibold leading-7 pb-5'>
-            We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back. <br /> With our support, you’ll navigate life’s key transitions with confidence, resilience, and purpose—whether it's in your career, education, or personal growth. <br /> Join a community that nurtures talent, accelerates leadership, and empowers you to turn challenges into stepping stones for success.
+            We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back. <br /> With our support, you’ll navigate life’s key transitions with confidence, resilience, and purpose—whether it's in your career, education, or personal growth.
 
             </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>

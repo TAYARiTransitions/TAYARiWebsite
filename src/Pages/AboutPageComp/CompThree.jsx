@@ -13,7 +13,7 @@ const CompThree = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center bg-white py-16 sm:py-24 gap-5 px-7 sm:px-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center bg-gray-100 py-16 sm:py-24 gap-5 px-7 sm:px-20">
         <motion.div
           className="max-w-3xl"
           variants={fadeInUp}

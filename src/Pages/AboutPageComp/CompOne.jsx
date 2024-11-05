@@ -32,13 +32,7 @@ const CompOne = () => {
               </h2>
             </div>
             <p className="text-md text-black font-semibold leading-8">
-              At TAYARi Transitions, we are driven by a singular purpose: to
-              bridge the gap between potential and opportunity for Africa's
-              youth. Our mission is to dismantle the systemic barriers—social,
-              economic, and institutional—that prevent young people from
-              reaching their full potential. We believe that Africa’s youth, her
-              most valuable asset, deserve a system that empowers them to
-              thrive, and we are committed to providing that.
+              At TAYARi Transitions, we offer transition management - a structured approach to navigating life's pivotal moments with wisdom and foresight.
             </p>
           </div>
         </motion.div>

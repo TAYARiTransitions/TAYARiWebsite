@@ -10,7 +10,7 @@ const TechnologyInternship = () => {
         <>
             <div className="techinthomepage relative">
                 <div className="techinternP min-h-screen flex justify-center items-center">
-                    <h1 className="text-white text-4xl sm:text-5xl font-semibold text-center ">Technology Internship</h1>
+                    <h1 className="text-white text-3xl sm:text-5xl font-semibold text-center ">Technology Internship</h1>
                 </div>
             </div>
             <NavBar />

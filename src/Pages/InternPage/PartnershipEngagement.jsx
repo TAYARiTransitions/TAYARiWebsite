@@ -25,10 +25,10 @@ const PrtnershipEngagement = () => {
           <div className="info pb-10 text-black opacity-90 text-2xl w-full">
             <div className=" flex  justify-center content-center items-center w-full px-5">
               <div className="max-w-6xl">
-                <p className="pb-5 leading-10  text-lg">Applications are open from October 13,  2024 through to December 13, 2024. Applications are reviewed on a rolling basis, so we encourage applicants to apply early.</p>
+                <p className="pb-5 leading-10  text-lg">Applications are open from March 2025. Applications are reviewed on a rolling basis, so we encourage applicants to apply early.</p>
                 <p className="pb-5 leading-10  text-lg">Participation requires that you be an African, residing in Africa, with a computer system and access to internet connectivity to work remotely.</p>
                 <p className="pb-5 leading-10  text-lg">This role is for undergraduate 3rd year students or early career professionals who are innovative, self-motivated, impact-driven, and seeking to make a significant difference in the landscape of empowerment for the young African.</p>
-                <p className="pb-5  text-lg "><b>Internship duration is 6-months, starting from February 3, 2024 - August 3, 2024</b></p>
+                <p className="pb-5  text-lg "><b>Internship duration is 3-months.</b></p>
 
                 <p className="pb-5 leading-10  text-lg">Tayari Transitions, we are driven by a singular purpose: to bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the systemic barriers—social, economic, and institutional—that prevent young people from reaching their full potential. We believe that Africa’s youth, her most valuable asset, deserve a system that empowers them to thrive, and we are committed to providing that.</p>
                 <p className="pb-5 leading-10  text-lg">To apply, you will need an up-to-date Resume, a current transcript in English, and stable internet access. All documents uploaded should be uploaded in PDF.</p>

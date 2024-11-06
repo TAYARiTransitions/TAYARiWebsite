@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Teammembers from '../src/TeamMembers';
 import { useEffect } from 'react';
 
+
 const Team = () => {
   return (
     <div className='py-16 px-5 bg-white'>

@@ -1,3 +1,6 @@
+import HOOImg from './assets/B56A2463.jpg'
+import WDIImg from './assets/favour.jpg'
+
 const teamMembers = [
     {
         id: 1,
@@ -8,13 +11,13 @@ const teamMembers = [
     {
         id: 2,
         title: 'Head Of Operations',
-        img: 'https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?t=st=1729778774~exp=1729782374~hmac=40e06dc53bbd6829e46f5700c4612cb07384f9e1d58c6ce7816d83358b1f03bd&w=740',
+        img: HOOImg,
         name: 'Mirabel Godwin'
     },
     {
         id: 3,
         title: 'Web Dev Intern',
-        img: 'https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?t=st=1729778774~exp=1729782374~hmac=40e06dc53bbd6829e46f5700c4612cb07384f9e1d58c6ce7816d83358b1f03bd&w=740',
+        img: WDIImg,
         name: 'Favour Adebayo'
     },
     // {

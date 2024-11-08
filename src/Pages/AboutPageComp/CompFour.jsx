@@ -23,7 +23,7 @@ const CompFour = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center text-white gap-5 mt-8">
           <motion.div
-            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[500px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -38,14 +38,14 @@ const CompFour = () => {
               <h2 className="text-center text-xl pb-3 font-semibold">
               Targeted Support for Each Transition
               </h2>
-              <p>
+              <p className="text-sm leading-6">
               We recognize that each stage—from securing that first job to planning a meaningful retirement—requires a unique set of skills and resources. Our offerings are customized for each journey, ensuring relevance and impact.
               </p>
             </div>
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[500px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -61,7 +61,7 @@ const CompFour = () => {
               <h2 className="text-center text-xl pb-3 font-semibold">
               Community and Connection
               </h2>
-              <p>
+              <p className="text-sm leading-6">
               We foster a strong sense of community, bringing together participants, mentors, and industry experts who are invested in each other’s success. Our exclusive networking events, peer forums, and online groups give you direct access to a supportive network.
 
               </p>
@@ -69,7 +69,7 @@ const CompFour = () => {
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[500px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -85,7 +85,7 @@ const CompFour = () => {
               <h2 className="text-center text-xl pb-3 font-semibold">
               Practical Tools and Real-world Insights
               </h2>
-              <p>
+              <p className="text-sm leading-6">
               Through our workshops, resources library, and coaching, we provide not only the "what" but the "how"—equipping you with actionable skills that apply directly to your path, whatever it may be.
               </p>
             </div>

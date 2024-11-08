@@ -23,7 +23,7 @@ const CompFour = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center text-white gap-5 mt-8">
           <motion.div
-            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -45,7 +45,7 @@ const CompFour = () => {
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -69,7 +69,7 @@ const CompFour = () => {
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[515px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"

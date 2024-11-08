@@ -11,7 +11,7 @@ const Team = () => {
         <h2 className="text-3xl font-semibold text-black opacity-90">Meet Our Team Members</h2>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-5'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
         {Teammembers.map((Teammember, idx) => (
           <TeamMemberCard key={Teammember.id} Teammember={Teammember} index={idx} />
         ))}
@@ -42,16 +42,28 @@ const TeamMemberCard = ({ Teammember, index }) => {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: index * 0.2 } }
       }}
-      className='w-72 border border-gray-400 border-opacity-50 bg-white hover:shadow-xl rounded-t-xl pb-16 text-center'
+      className=' border border-gray-400 border-opacity-50 bg-white hover:shadow-xl rounded-t-md sm:rounded-s-md relative group'
     >
-      <div>
+
+      <div className=' flex flex-col sm:flex-row gap-1 sm:gap-3'>
         <img
           src={Teammember.img}
           alt=""
-          className='h-52 rounded-t-medium w-full object-cover'
+          className='h-96 sm:h-72 w-full sm:w-1/2 object-cover rounded-t-md sm:rounded-s-md'
         />
-        <p className='text-black py-2'>{Teammember.title}</p>
-        <p className='text-xl text-black font-bold'>{Teammember.name}</p>
+        <div className='w-full sm:w-1/2 px-2 py-3'>
+          <div className='flex text-sm gap-2 py-2'>
+            <p className='text-black'>{Teammember.title}</p>
+            <p className='text-md text-black font-bold'>{Teammember.name}</p>
+          </div>
+          <p className='text-sm text-black leading-6'>{Teammember.info}</p>
+        </div>
+
+      </div>
+      <div className='absolute inset-0 bg-black bg-opacity-85 opacity-0 group-hover:opacity-100 transition-opacity duration-300' id='overlay'>
+          <p className='text-white text-sm  p-3 leading-7'>
+            {Teammember.details}
+          </p>
       </div>
     </motion.div>
   );

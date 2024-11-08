@@ -48,13 +48,13 @@ function App() {
           {/* Other Routes */}
           <Route path="/AboutUs" element={<ABOUTPG />} />
           <Route path="/OurProgrammes" element={<PROGRAMMES />} />
-          <Route path="/OurInternship" element={<INTERNSHIP />} />
+        {/*    <Route path="/OurInternship" element={<INTERNSHIP />} />
 
 
           <Route path="/TechnologyInternship" element={<TechnologyInternship />} />
-          {/* <Route path="/BusinessDevelopment" element={<BusinessDevelopment />} /> */}
+         <Route path="/BusinessDevelopment" element={<BusinessDevelopment />} /> 
           <Route path="/PartnershipEngagement" element={<PartnershipEngagement />} />
-          <Route path="/FundManagement" element={<FundManagement />} />
+          <Route path="/FundManagement" element={<FundManagement />} /> */}
 
           {/* Fallback for Undefined Routes */}
           <Route path="*" element={<ErrorPg message="Page not found." />} />

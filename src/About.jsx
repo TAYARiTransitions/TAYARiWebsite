@@ -32,10 +32,10 @@ const About = () => {
         }}
         className="border-l-4 obl py-2 pl-2 mb-5"
       >
-        <h2 className="text-3xl font-semibold text-white">About Us</h2>
+        <h2 className="text-3xl font-semibold text-white">What We Offer</h2>
       </motion.div>
 
-      <div className="flex justify-between flex-col-reverse lg:flex-row items-start gap-5">
+      <div className="flex justify-between flex-col-reverse lg:flex-row items-start gap-8">
         {/* Image Grid Animation */}
         <motion.div
           ref={ref2}
@@ -49,12 +49,12 @@ const About = () => {
         >
           {['Image 1', 'Image 2', 'Image 3', 'Image 4'].map((_, idx) => (
             <div key={idx} className='relative overflow-hidden'>
-              <img 
-                src={`https://img.freepik.com/free-photo/${idx === 0 ? 'abstract-psychedelic-papercut-background_23-2149303066.jpg?t=st=1729772429~exp=1729776029~hmac=6fe97c39732b0685e147d9328ad02341dbbb6db47a3d0ee11b9dead8612606d5&w=740' 
-                  : idx === 1 ? 'gradient-abstract-background_23-2149947340.jpg?t=st=1729772456~exp=1729776056~hmac=faeec3c1343b6f1fc0ff2a7e37e8c435e32598968ec6eea6f89430c8d3890216&w=740' 
-                  : idx === 2 ? 'vivid-blurred-colorful-wallpaper-background_58702-2901.jpg?t=st=1729772482~exp=1729776082~hmac=673af4f8107e303b811bf65258d25df488649893c35f077a44f378fbf2d5061a&w=740' 
-                  : 'aesthetic-background-with-gradient-sunset-projector-lamp_53876-108137.jpg?t=st=1729772504~exp=1729776104~hmac=7cac9014aab0fb8f64968b70f5d658b8ddd0b1abda73bde147116d2cf078c7d6&w=740'}`}
-                alt={`Image ${idx + 1}`} 
+              <img
+                src={`https://img.freepik.com/free-photo/${idx === 0 ? 'abstract-psychedelic-papercut-background_23-2149303066.jpg?t=st=1729772429~exp=1729776029~hmac=6fe97c39732b0685e147d9328ad02341dbbb6db47a3d0ee11b9dead8612606d5&w=740'
+                  : idx === 1 ? 'gradient-abstract-background_23-2149947340.jpg?t=st=1729772456~exp=1729776056~hmac=faeec3c1343b6f1fc0ff2a7e37e8c435e32598968ec6eea6f89430c8d3890216&w=740'
+                    : idx === 2 ? 'vivid-blurred-colorful-wallpaper-background_58702-2901.jpg?t=st=1729772482~exp=1729776082~hmac=673af4f8107e303b811bf65258d25df488649893c35f077a44f378fbf2d5061a&w=740'
+                      : 'aesthetic-background-with-gradient-sunset-projector-lamp_53876-108137.jpg?t=st=1729772504~exp=1729776104~hmac=7cac9014aab0fb8f64968b70f5d658b8ddd0b1abda73bde147116d2cf078c7d6&w=740'}`}
+                alt={`Image ${idx + 1}`}
                 className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-110"
               />
             </div>
@@ -70,19 +70,16 @@ const About = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.4 } }
           }}
-          className='abtTxt text-white lg:max-w-2xl'
+          className='abtTxt text-white lg:max-w-2xl pl-4 lg:pl-0'
         >
-          <p className="leading-8 font-semibold pb-3">
-            At TAYAR! Transitions, we provide more than just a service; we offer transition management—a structured approach to navigating life’s pivotal moments with wisdom and foresight.
-          </p>
-          <p className="leading-8 font-semibold pb-5">
-            Join a community that nurtures talent, accelerates leadership, and empowers you to turn challenges into stepping stones for success.
-          </p>
-          <button>
-            <Link to='/AboutUs' className="text-md pri2 px-3 py-3 mb-5 sm:mb-0 ">
-              Learn More
-            </Link>
-          </button>
+         <ol  className='list-decimal leading-8'>
+            <li>Comprehensive Training & Workshops : Participate in interactive courses that focus on employability, career progression, and entrepreneurial development. Gain practical skills and mindset shifts essential for thriving across Africa’s transformative sectors.
+            </li>
+            <li>Access to Expert Networks & Resources : Connect with a community of industry experts, potential employers, and investment partners. Our workshops and networking events provide the right connections to accelerate your career and entrepreneurial journey.
+            </li>
+            <li>Incentives for Growth & Opportunity : Achieve progress with built-in incentives like real-world internship placements, funding support for innovative ideas, and curated investment opportunities to help your business ideas flourish.
+            </li>
+         </ol>
         </motion.div>
       </div>
     </div>

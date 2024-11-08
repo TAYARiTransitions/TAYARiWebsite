@@ -35,16 +35,15 @@ const NavBar = () => {
         <div className="navLogo">
           <a href="#"><img src={tayariLogo} alt="logo" className="w-14" /></a> 
         </div>
-        <div className="navLink hidden md:flex gap-[65px] text-md" id='linkItem'>
+        <div className="navLink hidden lg:flex gap-[65px] text-md" id='linkItem'>
           <Link to='/' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Home</Link>
-          <Link to='/AboutUs' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Our Offer</Link>
-          <Link to='/OurInternship' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Internships</Link>
+          <Link to='/AboutUs' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>About Us</Link>
           <Link to='/OurProgrammes' className={`${scrolled ? 'text-white font-semibold' : 'text-white'}`}>Programs</Link>
         </div>
-        <div className="btnJoin hidden md:block">
+        <div className="btnJoin hidden lg:block">
           <Link to='/Join Us' id='btnJoin' className="text-white font-normal pri2 px-3 py-3 rounded-sm text-md">Contact Us</Link>
         </div>
-        <button className="md:hidden" onClick={toggleMenu}>
+        <button className="lg:hidden" onClick={toggleMenu}>
           {/* Toggle button with animation */}
           <span className={`block w-6 h-0.5 mb-1 bg-white transition-transform duration-300 ${menuOpen ? 'transform rotate-45 translate-y-1.5' : ''}`}></span>
           <span className={`block w-6 h-0.5 mb-1 bg-white transition-opacity duration-300 ${menuOpen ? 'opacity-0 ' : 'opacity-100'}`}></span>
@@ -56,7 +55,7 @@ const NavBar = () => {
       {menuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-95 flex flex-col items-center justify-center z-50" onClick={closeMenu}>
           
-          <button className="md:hidden absolute top-8 right-2" onClick={toggleMenu}>
+          <button className="lg:hidden absolute top-8 right-2 sm:top-8 sm:right-10" onClick={toggleMenu}>
           {/* Toggle button with animation */}
           <span className={`block w-6 h-0.5 mb-1 bg-white transition-transform duration-300 ${menuOpen ? 'transform rotate-45 translate-y-1.5' : ''}`}></span>
           <span className={`block w-6 h-0.5 mb-1 bg-white transition-opacity duration-300 ${menuOpen ? 'opacity-0 ' : 'opacity-100'}`}></span>
@@ -65,8 +64,7 @@ const NavBar = () => {
 
           <div className="flex flex-col text-white text-md gap-2 text-center">
             <Link to='/' onClick={closeMenu}>Home</Link>
-            <Link to='/AboutUs' onClick={closeMenu}>Our Offer</Link>
-            <Link to='/OurInternship' onClick={closeMenu}>Internships</Link>
+            <Link to='/AboutUs' onClick={closeMenu}>About Us</Link>
             <Link to='/OurProgrammes' onClick={closeMenu}>Programs</Link>
             <Link to='/Join Us' onClick={closeMenu}>Contact Us</Link>
           </div>

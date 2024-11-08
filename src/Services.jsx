@@ -46,9 +46,9 @@ const Services = () => {
             visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
           }}
         >
-          <h2 className="text-3xl font-semibold text-black opacity-90">What We Offer</h2>
+          <h2 className="text-3xl font-semibold text-black opacity-90">Our Mission & Vision</h2>
         </motion.div>
-        
+
         <div className='grid grid-cols-1  lg:grid-cols-2 gap-10'>
           {/* Text Block Animation */}
           <motion.div
@@ -60,11 +60,22 @@ const Services = () => {
               visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } }
             }}
           >
-            <h3 className='text-black text-2xl opacity-90 pb-3'>TAYARi Transitions</h3>
-            <p className='text-black opacity-90 font-semibold leading-7 pb-5'>
-            We bridge the gap between potential and opportunity for Africa's youth. Our mission is to dismantle the societal, economic, and institutional barriers that hold you back. <br /> With our support, you’ll navigate life’s key transitions with confidence, resilience, and purpose—whether it's in your career, education, or personal growth.
-
+            {/* <h3 className='text-black text-2xl opacity-90 pb-3'>TAYARi Transitions</h3> */}
+            <p className='text-black opacity-90  leading-7 pb-5'>
+              At TAYARi Transitions, we believe that every African has the potential to thrive, but too often, the journey is complicated by gaps in knowledge, resources, and guidance. Our mission is simple: to help you navigate the transitions that define your career and life with wisdom and foresight. Whether you're entering the job market, advancing your career, stepping into entrepreneurship, or preparing to retire, we’re here to walk with you every step of the way.
             </p>
+            <p className='text-black opacity-90  leading-7 pb-5'>
+              We exist because we know that the path to success can feel overwhelming, and too many talented individuals are left behind due to societal barriers or a lack of direction. Our goal is to equip you with the skills, mindset, and networks needed to unlock your potential and reach your desired destination faster than you could on your own.
+            </p>
+            <p className='text-black opacity-90  leading-7 pb-5'>
+
+              Through training, mentorship, and meaningful connections, we’re here to help you grow, make an impact, and build a future that’s not just about success—but about purpose.
+            </p>
+
+            <p className='text-black opacity-90 font-semibold leading-7 pb-5'>
+              Let’s navigate these transitions together.
+            </p>
+
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
               {/* Individual Items Animation */}
               {/* {['Community and Collaborations', 'Support for transitions', 'Impacting Lives'].map((item, idx) => (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import CompSixData from './CompSixData.js'
+import CompSixData from './CompSixData.js';
 
 const CompSix = () => {
   const fadeIn = {
@@ -8,7 +8,7 @@ const CompSix = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8 }, // Duration for the fade-in effect
+      transition: { duration: 0.8 },
     },
   };
 
@@ -25,24 +25,31 @@ const CompSix = () => {
           <h2 className="text-3xl font-semibold text-black">
             How Can You Get Involved?
           </h2>
-          
         </motion.div>
 
-        <div >
+        <div>
           <p className='text-black pb-5'>
-          Whether you're here to learn, mentor, or invest, TAYARi Transitions invites you to be part of a transformative journey. Discover how you can contribute and benefit from our mission to unlock Africa’s youth potential. Explore the ways to get involved below:
-
+            Whether you're here to learn, mentor, or invest, TAYARi Transitions invites you to be part of a transformative journey. Discover how you can contribute and benefit from our mission to unlock Africa’s youth potential. Explore the ways to get involved below:
           </p>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 text-black'>
-              {CompSixData.map((CSD,idx ) => (
-                  <div key = {idx} className='bg-white py-5 px-4 rounded-sm hover:shadow-xl' >
-                      <p className='text-md pb-2 font-semibold'>{CSD.progName}</p>
-                      <p >{CSD.progTitle}</p>
-                      <hr className='mb-2  bg-black py-0.5 bg-opacity-80' />
-                      <p className='text-sm leading-6'>{CSD.progDetails}</p>
-                  </div>
-              ))}
-            </div>
+          
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 text-black'>
+            {CompSixData.map((CSD, idx) => (
+              <motion.div
+                key={idx}
+                className='bg-white py-5 px-4 rounded-sm hover:shadow-xl'
+                variants={fadeIn}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false, amount: 0.2 }}
+                transition={{ delay: idx * 0.2 }} // Stagger the delay to animate one after another
+              >
+                <p className='text-md pb-2 font-semibold'>{CSD.progName}</p>
+                <p>{CSD.progTitle}</p>
+                <hr className='mb-2 bg-black py-0.5 bg-opacity-80' />
+                <p className='text-sm leading-6'>{CSD.progDetails}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

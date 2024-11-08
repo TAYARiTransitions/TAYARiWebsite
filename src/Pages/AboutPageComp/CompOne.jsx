@@ -16,7 +16,7 @@ const CompOne = () => {
 
   return (
     <div>
-      <div className="flex flex-col lg:flex-row justify-between items-center bg-white py-16 gap-5 px-7 sm:px-20">
+      <div className="flex flex-col lg:flex-row justify-between items-center bg-white py-16 gap-3 px-7 sm:px-20">
         <motion.div
           className="max-w-2xl"
           initial="hidden"
@@ -28,12 +28,14 @@ const CompOne = () => {
           <div>
             <div className="border-l-4 bbl py-2 pl-2 mb-5">
               <h2 className="text-3xl font-semibold text-black">
-                What We Believe
+                Brief History
               </h2>
             </div>
-            <p className="text-md text-black font-semibold leading-8">
-              At TAYARi Transitions, we offer transition management - a structured approach to navigating life's pivotal moments with wisdom and foresight.
+            <p className="text-md text-black  leading-8">
+            TAYARi was born from a need we saw firsthand—a group of people feeling “stuck,” seeking direction and purpose. Through an intensive 8-week interactive coaching program, we discovered that many are not only searching for career success but a deeper understanding of their passions and impact. This experience revealed that with the right guidance, each individual could connect their life’s experiences into a meaningful, purpose-driven path forward. From that first cohort, a larger vision emerged: to empower others to find clarity, overcome barriers, and move forward with foresight.
+
             </p>
+           
           </div>
         </motion.div>
 

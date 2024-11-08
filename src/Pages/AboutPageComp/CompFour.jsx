@@ -17,9 +17,13 @@ const CompFour = () => {
         <div className="border-l-4 obl py-2 pl-2 mb-5">
           <h2 className="text-3xl font-semibold text-white">Why Choose Us</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center text-white gap-5 mt-10">
+        <div className="text-white">
+          <p>What sets TAYARi Transitions apart is our holistic, hands-on approach. We’re not just about career advice; we’re about personal transformation. Our programs focus on:
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center text-white gap-5 mt-8">
           <motion.div
-            className="border border-gray-600 h-[450px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -30,21 +34,18 @@ const CompFour = () => {
               alt=""
               className="rounded-t-xl object-cover"
             />
-            <div className="px-4 py-2">
+            <div className="px-4 py-4">
               <h2 className="text-center text-xl pb-3 font-semibold">
-                Holistic Support
+              Targeted Support for Each Transition
               </h2>
               <p>
-                We address all facets of transition, from career changes and
-                education to personal milestones. Our approach is comprehensive,
-                ensuring that individuals receive the guidance they need at
-                every stage.
+              We recognize that each stage—from securing that first job to planning a meaningful retirement—requires a unique set of skills and resources. Our offerings are customized for each journey, ensuring relevance and impact.
               </p>
             </div>
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[450px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -56,20 +57,19 @@ const CompFour = () => {
               alt=""
               className="rounded-t-xl object-cover"
             />
-            <div className="px-4 py-2">
+            <div className="px-4 py-4">
               <h2 className="text-center text-xl pb-3 font-semibold">
-                Community and Networking
+              Community and Connection
               </h2>
               <p>
-                We cultivate a strong, supportive community where individuals
-                can learn from one another and grow together, building networks
-                that last a lifetime.
+              We foster a strong sense of community, bringing together participants, mentors, and industry experts who are invested in each other’s success. Our exclusive networking events, peer forums, and online groups give you direct access to a supportive network.
+
               </p>
             </div>
           </motion.div>
 
           <motion.div
-            className="border border-gray-600 h-[450px] rounded-t-xl hover:bg-white hover:text-black transition-all"
+            className="border border-gray-600 h-[510px] rounded-t-xl hover:bg-white hover:text-black transition-all"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -81,14 +81,12 @@ const CompFour = () => {
               alt=""
               className="rounded-t-xl object-cover"
             />
-            <div className="px-4 py-2">
+            <div className="px-4 py-4">
               <h2 className="text-center text-xl pb-3 font-semibold">
-                Transitions Passport
+              Practical Tools and Real-world Insights
               </h2>
               <p>
-                Our hybrid approach, both physical and virtual, eliminates
-                geographical barriers, making our offerings accessible to all,
-                regardless of location.
+              Through our workshops, resources library, and coaching, we provide not only the "what" but the "how"—equipping you with actionable skills that apply directly to your path, whatever it may be.
               </p>
             </div>
           </motion.div>

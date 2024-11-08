@@ -24,19 +24,13 @@ const CompThree = () => {
           <div>
             <div className="border-l-4 bbl py-2 pl-2 mb-5">
               <h2 className="text-3xl font-semibold text-black">
-                OUR VISION: <br /> Empowering Africa’s Next Generation
+                What We Believe
               </h2>
             </div>
 
-            <p className="text-md text-black font-semibold leading-10">
-              Africa’s youth face a unique set of challenges. Unrealistic
-              societal expectations, cultural norms, economic inequality, and
-              institutional hurdles often stand in the way of their progress.
-              Our goal is to create a funnel that identifies, nurtures, and
-              rapidly deploys talent across the continent’s transformative
-              sectors. At TAYAR! Transitions foster a mindset of growth and
-              collaborative leadership that positions young people as architects
-              of their own future and of the continent’s transformation.
+            <p className="text-md text-black  leading-8">
+            We believe Africa’s people hold incredible potential to shape a brighter, more innovative future. We understand the unique journey encountered as they move from education to employment, scale the career ladder, explore entrepreneurship, or transition to retirement. These steps can be daunting without the right guidance, skills, and support network. At TAYARi, our goal is to dismantle barriers and unveil pathways that will empower individuals to scale from where they are to where they want to be - leaving a lasting impact and legacy in communities
+
             </p>
           </div>
         </motion.div>

@@ -28,10 +28,18 @@ const CompSix = () => {
         </motion.div>
 
         <div>
-          <p className='text-black pb-5'>
-            Whether you're here to learn, mentor, or invest, TAYARi Transitions invites you to be part of a transformative journey. Discover how you can contribute and benefit from our mission to unlock Africa’s youth potential. Explore the ways to get involved below:
-          </p>
-          
+          <motion.div
+            variants={fadeIn}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+          >
+            <p className='text-black pb-5'>
+              Whether you're here to learn, mentor, or invest, TAYARi Transitions invites you to be part of a transformative journey. Discover how you can contribute and benefit from our mission to unlock Africa’s youth potential. Explore the ways to get involved below:
+            </p>
+          </motion.div>
+
+
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 text-black'>
             {CompSixData.map((CSD, idx) => (
               <motion.div

@@ -4,7 +4,7 @@ import WDIImg from './assets/favour.jpg'
 const teamMembers = [
     {
         id: 1,
-        title: 'Managing Partner',
+        title: 'Managing Partner:',
         img: WDIImg,
         name: 'Kevwe Akpokiniovo',
         info: "She leads the strategic direction and operational development to advance the organization’s mission. She oversees partnerships, resource management, and organizational growth to sustain TAYARi's role in unlocking opportunities for Africa’s youth.",
@@ -13,7 +13,7 @@ const teamMembers = [
     },
     {
         id: 2,
-        title: 'Head Of Operations',
+        title: 'Head Of Operations:',
         img: HOOImg,
         name: 'Mirabel Godwin',
         info : 'She leads operational efficiency by managing systems, streamlining workflows, and ensuring cohesive team coordination. She also drives community engagement strategies, logistical support, the implementation of strategic initiatives while fostering cross-functional collaboration to align with organizational goals.'
@@ -22,7 +22,7 @@ const teamMembers = [
     },
     {
         id: 3,
-        title: 'Web Dev Intern',
+        title: 'Web Dev Intern:',
         img: WDIImg,
         name: 'Favour Adebayo',
         info: 'He supports the design, development, and maintenance of TAYARi Transitions’ website, focusing on both front-end and back-end functionality. His role includes testing and deploying new features to ensure the website meets technical standards and aligns with program and organizational goals.'
@@ -31,7 +31,7 @@ const teamMembers = [
     },
     {
         id: 4,
-        title: 'Technical Intern',
+        title: 'Technical Intern:',
         img: WDIImg,
         name: 'Lineekela (Lee) Shinane',
         info:'He assists in managing and maintaining technology systems, including website optimization, virtual platform setup, and troubleshooting technical issues. He supports content creation, graphic design for digital and print materials, and tracks performance metrics to enhance user experience and engagement.'

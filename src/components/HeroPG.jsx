@@ -30,8 +30,8 @@ const Carousel = () => {
         style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.606), rgba(0, 0, 0, 0.606)),url(${images[currentIndex]})` }}
       >
         <div className="max-w-80 sm:max-w-xl text-center">
-        <h2 className="text-xl sm:text-3xl  text-white">Unlock Africa's Potential</h2>
-        <h2 className=" text-3xl sm:text-4xl  font-bold pb-2 pri3"> One Transition At A Time 	</h2>
+        <h2 className="text-md sm:text-3xl  text-white">Unlock Africa's Potential</h2>
+        <h2 className=" text-2xl sm:text-4xl  font-bold pb-2 pri3"> One Transition At A Time 	</h2>
         <p className="text-white text-sm pb-3">At TAYARi Transitions, we guide Africa’s youth through life’s pivotal moments with wisdom, resilience and purpose. From graduation to landing your first job, rising through the ranks, or building entrepreneurial skills, our mission is to walk with you through every phase of growth.
         </p>
         <Link to = '/OurInternship'><button className="text-white pri2 py-2 px-5 rounded-sm  "><p>Learn More</p></button></Link>
